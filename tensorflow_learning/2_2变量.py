@@ -1,5 +1,5 @@
 """
-在Jupyter中按shift+Tab键有对这个函数描述，shift+Tab+Tab 有更详细的描述
+在Jupyter中按shift+Tab键有对这个函数描述
 """
 import tensorflow as tf
 
