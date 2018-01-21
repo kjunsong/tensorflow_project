@@ -23,7 +23,7 @@ feed使用一个tensor值临时替代一个操作的输出结果
 """  
 input1 = tf.placeholder(tf.float32)
 input2 = tf.placeholder(tf.float32)
-output = tf.multiply(input1, input2)
+output = tf.multiply(input1, input2) #相乘
 
 with tf.Session() as sess:
     #Feed的数据以字典的形式传入
