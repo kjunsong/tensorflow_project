@@ -1,3 +1,6 @@
+"""
+在Jupyter中按shift+Tab键有对这个函数描述，shift+Tab+Tab 有更详细的描述
+"""
 import tensorflow as tf
 
 #创建一个变量 初始化为标量0 变量名为counter
