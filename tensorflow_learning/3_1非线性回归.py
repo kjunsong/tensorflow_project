@@ -43,3 +43,5 @@ with tf.Session() as sess:
     #r-:红色实线，径宽设为5
     plt.plot(x_data, prediction_value, 'r-', lw = 5)
     plt.show()
+
+    
