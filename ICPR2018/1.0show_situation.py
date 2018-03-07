@@ -1,16 +1,13 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Feb 25 19:17:33 2018
-
 @author: 俊松
 """
 import os
 import pandas as pd
 from PIL import Image, ImageDraw
 
-
-def draw_boxes(path, name, rectangle = False):
-    
+def draw_boxes(path, name, rectangle = False):    
     file_pic = '\\image_1000\\%s.jpg'%name # 图片的地址
     file_text = '\\txt_1000\\%s.txt'%name # 描述文件的地址
     if not os.path.exists(path + file_pic):
