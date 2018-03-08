@@ -35,7 +35,12 @@ def draw_boxes(path, name, rectangle = False):
             draw.rectangle((x_min, y_min, x_max, y_max), outline=(0,0,255))
         
     return img
-
+"""
+>>>'__nain__'
+   '__main__'
+>>>tc.__name__
+   'p13_5'
+"""
 if __name__ == '__main__':
     
     path = 'D:\\datastore\\1802tianchi\\ICPR_text_train_part1_20180211' # 文件夹地址
