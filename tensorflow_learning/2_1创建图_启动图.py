@@ -6,7 +6,7 @@ op构造器可以为其增加节点，op构造器的返回值代表被构造出�
 
 import tensorflow as tf
 
-#创建一个常量op(operation)，产生一个1*2矩阵。这个op被作为一个节点
+#创建一个常量op(operation)，产生一个1*2矩阵（prnit(m1)：输出为向量而不是矩阵）。这个op被作为一个节点
 #加到默认图中
 #构造器的返回值代表该常量op的返回值
 m1 = tf.constant([[3,3]])
